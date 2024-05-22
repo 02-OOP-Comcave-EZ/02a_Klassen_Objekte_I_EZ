@@ -8,15 +8,15 @@ public class App {
         
         // Cat --> Referenztyp (Klasse aus der das Objekt entsteht)
         // cat1 --> Referenzvariable (Adresse des Objekts im RAM)
-        Cat cat1 = new Cat(); // Instanzieerung
-        System.out.println("Blick von aussen: " + cat1); // Adresse des Objekts
-        cat1.sayHi();
-        System.out.println("-------------------------------");
+        Cat cat1 = new Cat(); // Instanziierung
+        output("Blick von aussen: " + cat1); // Adresse des Objekts
+        output("Blick von innen : " + cat1.getInstanceVar());
+              
+        output("-------------------------------");
 
         Cat cat2 = new Cat();
-        System.out.println("Blick von aussen: " + cat2);
-        cat2.sayHi();
-
+        output("Blick von aussen: " + cat2); // Adresse des Objekts
+        output("Blick von innen : " + cat2.getInstanceVar());
        
     }
 
