@@ -17,14 +17,7 @@ public class App {
         System.out.println("Blick von aussen: " + cat2);
         cat2.sayHi();
 
-
-        // System.out.println(new Cat());
-        // System.out.println(new Cat());
-
-        // System.out.println(this);
-
-
-
+       
     }
 
 
